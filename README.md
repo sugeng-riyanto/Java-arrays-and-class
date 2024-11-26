@@ -62,8 +62,8 @@ Before starting, ensure you have:
 3. Basic knowledge of Java syntax and OOP concepts.
 
 ---
-
-    import java.util.ArrayList;
+```java
+import java.util.ArrayList;
 
 public class PenguinManager {
     public static void main(String[] args) {
@@ -116,6 +116,8 @@ public class PenguinManager {
     }
 }
 
+```
+    enter code here
 
 ## 🛠️ Getting Started
 
