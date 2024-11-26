@@ -124,6 +124,5 @@ public class PenguinManager {
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/penguin-manager.git
-cd penguin-manager
+https://github.com/sugeng-riyanto/Java-arrays-and-class.git cd penguin-manager
 #
