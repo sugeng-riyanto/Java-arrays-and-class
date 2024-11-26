@@ -117,7 +117,6 @@ public class PenguinManager {
 }
 
 ```
-    enter code here
 
 ## 🛠️ Getting Started
 
