@@ -1,35 +1,41 @@
+// Define the Penguin class
 public class Penguin {
-    private String name;
-    private String species;
-    private int age;
-    private double weight;
 
-    // Constructor
+    // Private attributes for the Penguin class
+    private String name;    // Name of the penguin
+    private String species; // Species of the penguin
+    private int age;        // Age of the penguin
+    private double weight;  // Weight of the penguin in kilograms
+
+    // Constructor to initialize the Penguin object
     public Penguin(String name, String species, int age, double weight) {
-        this.name = name;
-        this.species = species;
-        this.age = age;
-        this.weight = weight;
+        this.name = name;          // Set the name
+        this.species = species;    // Set the species
+        this.age = age;            // Set the age
+        this.weight = weight;      // Set the weight
     }
 
-    // Method to print penguin details
+    // Method to print details of the penguin
     public void printPenguin() {
-        System.out.println("Name: " + name + ", Species: " + species + ", Age: " + age + ", Weight: " + weight);
+        System.out.println("Name: " + name + ", Species: " + species + 
+                           ", Age: " + age + ", Weight: " + weight);
     }
 
-    // Method to edit penguin details
+    // Method to edit the penguin's age and weight
     public void editPenguin(String name, int newAge, double newWeight) {
+        // Check if the name matches this penguin's name
         if (this.name.equals(name)) {
-            this.age = newAge;
-            this.weight = newWeight;
+            this.age = newAge;       // Update the age
+            this.weight = newWeight; // Update the weight
             System.out.println("Updated " + name + " successfully!");
         } else {
+            // Print a message if the name doesn't match
             System.out.println("Penguin not found.");
         }
     }
 
-    // Getter for name (to access the name in other classes)
+    // Getter method to retrieve the penguin's name
     public String getName() {
-        return name;
+        return name; // Return the name of the penguin
     }
 }
